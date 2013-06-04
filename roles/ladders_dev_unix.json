@@ -1,0 +1,26 @@
+{
+  "name": "ladders_dev_unix",
+  "description": "role for Ubuntu Linux development boxen",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+  			"java": {
+			       "install_flavor": "oracle",  
+			       "jdk_version": "7",			      
+			       "oracle": { "accept_oracle_download_terms": true }
+			},
+			"maven": {
+				 "version": "3"				 
+			}
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "role[basic_ubuntu]",
+    "recipe[java]",
+    "recipe[maven]",
+    "recipe[mercurial]"     
+  ],
+  "env_run_lists": {
+  }
+}

@@ -33,7 +33,15 @@ ark "maven" do
   append_env_path true
 end
 
-template "/etc/mavenrc" do
-  source "mavenrc.erb"
-  mode 00755
+directory node['maven']['repository_root'] + '/m2/repository' do
+	  owner 'root'
+	  mode '0755'
+	  action :create
+	  recursive true
 end
+
+template '/etc/mavenrc' do
+  source 'mavenrc.erb'
+  mode '0755'
+end
+

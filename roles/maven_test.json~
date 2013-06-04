@@ -1,0 +1,17 @@
+{
+  "name": "maven_test",
+  "description": "debugging Maven cookbook",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[java]",
+    "recipe[maven]",
+    "recipe[emacs]"
+  ],
+  "env_run_lists": {
+  }
+}
