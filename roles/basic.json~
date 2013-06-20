@@ -11,8 +11,7 @@
     "recipe[networking_basic]",
     "recipe[emacs]",
     "recipe[openssl]",
-    "recipe[zsh]",
-    "recipe[oh-my-zsh]"
+    "recipe[zsh]"
   ],
   "env_run_lists": {
   }

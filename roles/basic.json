@@ -11,7 +11,8 @@
     "recipe[networking_basic]",
     "recipe[emacs]",
     "recipe[openssl]",
-    "recipe[zsh]"
+    "recipe[zsh]",
+    "recipe[python]"
   ],
   "env_run_lists": {
   }
