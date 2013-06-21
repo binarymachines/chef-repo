@@ -1,9 +1,16 @@
 Overview
 ========
 
-Every Chef installation needs a Chef Repository. This is the place where cookbooks, roles, config files and other artifacts for managing systems with Chef will live. We strongly recommend storing this repository in a version control system such as Git and treat it like source code.
+Repository for Chef configuration data across all Binarymachines projects. Our latest project is the creation of a 
+set of cookbooks and roles for instant spinup of development environments at The Ladders. On the horizon:
 
-While we prefer Git, and make this repository available via GitHub, you are welcome to download a tar or zip archive and use your favorite version control system to manage the code.
+* recipes for spinning up Riak clusters on EC2 
+* autogenerating Chef config sets using Storm topologies as a jumping-off point
+* redis 
+* RabbitMQ
+* Splunk supervisory nodes
+
+
 
 Repository Directories
 ======================
