@@ -1,0 +1,9 @@
+{
+  "id"        : "dtaylor",
+  "comment"   : "Dexter Taylor",
+  "home"      : "/home/dtaylor",
+  "shell"     : "/bin/bash",
+  "groups"    : ["developers"],
+  "action"    : "create",
+  "ssh_keys"  : ["ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC18Snlpwp0xRUDyZ1MUmrQxUl40RgpBiqH62Odi1KKq6MdeBhhnTQGf60h8ZAuBWzCncQhLkrFQgGjsTY6qeNDCnAmAimM0EDadCglMrjKs6FyyWoP0njNDL4s4vwyHTJyh9Wo+y3vhbhPLp9AJ9oBvQyVz8k72+XMsZRrZNwkJ6Aoi0+tkskLFTFxuurYBN50V0kfArK30n7LkjyuXNcYIT1fNyb+4hyO1IKzeTCd5TbiJplVX8wG9TR7TO+OKg38cDxjy4CEwgDvnk/VH5P5Pmal2yrOfh+myxS/RzNQGoxJhx8tu6zwmcW8CxyXHsc1LbIqoeVAMgPRkUXjweoB dtaylor@dtaylor.laddersoffice.com"]
+}
