@@ -9,8 +9,11 @@
   "chef_type": "role",
   "run_list": [
     "recipe[apt]",
-    "role[basic]"
+    "recipe[users]",
+    "role[basic]",
+    "recipe[mkuser]"
   ],
   "env_run_lists": {
+
   }
 }
